@@ -1,11 +1,20 @@
 {
     "name": "varanovich/prove_brackets",
-    "type": "MIT",
+    "license": "MIT",
+    "type": "project",
     "authors": [
         {
             "name": "Yuliya Voronovich",
             "email": "Y-1306@mail.ru"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=7.1.3"
+    },
+    "autoload": {
+        "classmap": ["src" ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    }
 }
